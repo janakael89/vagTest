@@ -2,10 +2,10 @@
 
 
 ## Pre-requests
-1. Vagrant
-2. Hypervisor (virtual box recommended)
-3. Compser
-4. Git
+1. Vagrant [download](https://www.vagrantup.com/downloads.html)
+2. Hypervisor (virtual box recommended) [download](https://www.virtualbox.org)
+3. Compser [download](https://getcomposer.org/download/)
+4. Git [download](https://git-scm.com/downloads)
 
 ## Installation Instructions
 
