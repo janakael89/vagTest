@@ -7,11 +7,11 @@ printf "Setting up web root folder"
 if [ -L /usr/share/nginx/html ]; then
   rm -rf /usr/share/nginx/html  
 fi
-if [ -L ~/www /vagrant ]; then
-  rm -rf ~/www /vagrant 
-fi
+#if [ -L ~/www /vagrant ]; then
+  #rm -rf ~/www /vagrant 
+#fi
 ln -fs /vagrant /usr/share/nginx/html
-ln -fs ~/www /vagrant
+#ln -fs ~/www /vagrant
 
 #curl -sS https://getcomposer.org/installer | php
 #sudo mv composer.phar /usr/local/bin/composer
